@@ -1,0 +1,19 @@
+{
+  "name": "celo-hot-wallet",
+  "version": "0.0.1",
+  "description": "_Under development_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biscoint/celo-hot-wallet.git"
+  },
+  "author": "Biscoint",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Biscoint/celo-hot-wallet/issues"
+  },
+  "homepage": "https://github.com/Biscoint/celo-hot-wallet#readme"
+}
