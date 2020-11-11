@@ -1,0 +1,7 @@
+node_modules
+tmp/
+node_modules/
+dist/
+.vscode/
+config/local.*
+.DS_Store

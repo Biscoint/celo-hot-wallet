@@ -1,0 +1,19 @@
+log:
+  level: LOG_LEVEL
+  format: LOG_FORMAT
+  timestampFormat: LOG_TIMESTAMP_FORMAT
+
+flustercluck:
+  prefetch: FLUSTERCLUCK_PREFETCH
+  serviceName: FLUSTERCLUCK_SERVICE_NAME
+  maxVCacheSize: FLUSTERCLUCK_MAX_VCACHE_SIZE
+  redis:
+    host: REDIS_HOST
+    port: REDIS_PORT
+    db: REDIS_DB
+    password: REDIS_PASSWORD
+  amqp:
+    url: AMQP_URL
+
+mongo:
+  url: MONGO_URL

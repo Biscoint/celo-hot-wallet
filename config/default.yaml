@@ -1,0 +1,21 @@
+log:
+  level: debug
+  format: console
+  timestampFormat: YYYY-MM-DD HH:mm:ss.SSS
+
+flustercluck:
+  prefetch: 5
+  serviceName: celo-hot-wallet
+  maxVCacheSize: 400
+  redis:
+    host: redis
+    port: 6379
+    db: 0
+    password:
+  amqp:
+    url: amqp://user:bitnami@rabbitmq
+
+mongo:
+  url: null # Use MONGO_URL env var
+
+websocket: wss://alfajores-forno.celo-testnet.org/ws

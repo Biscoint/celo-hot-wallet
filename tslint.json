@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {
+    "quotemark": [true, "single"]
+  },
+  "rules": {
+    "variable-name": {
+      "options": [
+        "allow-leading-underscore"
+      ]
+    }
+  },
+  "rulesDirectory": []
+}
