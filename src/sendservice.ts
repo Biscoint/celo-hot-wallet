@@ -6,6 +6,7 @@ import config from 'config';
 const log = Logger('SendService');
 
 class SendService {
+  cUSD: any;
 
   constructor() {
   }
@@ -27,7 +28,16 @@ class SendService {
     const kit = newKitFromWeb3(web3Instance);
 
     log.info(`Current block: ${await web3Instance.eth.getBlockNumber()}`)
+
+    this.cUSD = await kit.contracts.getStableToken();
+
+    //this.cUSD.transfer('', 1).send()
+
     log.debug('SEND SERVICE STARTED');
+  }
+
+  async send() {
+    
   }
 
   async stop() {

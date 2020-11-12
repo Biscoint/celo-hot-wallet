@@ -19,3 +19,5 @@ mongo:
   url: null # Use MONGO_URL env var
 
 websocket: wss://alfajores-forno.celo-testnet.org/ws
+seed: SEED
+contractAddress: null

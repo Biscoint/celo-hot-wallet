@@ -17,3 +17,7 @@ flustercluck:
 
 mongo:
   url: MONGO_URL
+
+websocket: WEBSOCKET
+seed: SEED
+contractAddress: CONTRACT_ADDRESS
