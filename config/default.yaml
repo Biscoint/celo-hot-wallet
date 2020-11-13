@@ -1,0 +1,8 @@
+log:
+  level: debug
+  format: console
+  timestampFormat: YYYY-MM-DD HH:mm:ss.SSS
+
+provider: https://alfajores-forno.celo-testnet.org
+seed: null
+contractAddress: null
