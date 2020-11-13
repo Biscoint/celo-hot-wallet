@@ -18,6 +18,6 @@ flustercluck:
 mongo:
   url: null # Use MONGO_URL env var
 
-websocket: wss://alfajores-forno.celo-testnet.org/ws
-seed: SEED
+provider: https://alfajores-forno.celo-testnet.org
+seed: null
 contractAddress: null

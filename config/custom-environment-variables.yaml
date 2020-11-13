@@ -18,6 +18,6 @@ flustercluck:
 mongo:
   url: MONGO_URL
 
-websocket: WEBSOCKET
+provider: PROVIDER
 seed: SEED
 contractAddress: CONTRACT_ADDRESS
